@@ -43,16 +43,16 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [Author]
-name = "Bino Kochumol Varghese"
-website = "https://binovarghese.com/"
-email = "sample@gmail.com"
-facebook = "username"
-instagram = "username"
-youtube = "user/username"             # or channel/channelname
-twitter = "username"
+name = "Aryan Arora"
+website = "https://stuckaryan.tech"
+email = "aroraryan826@gmail.com"
+# facebook = "username"
+instagram = "am.aaryan_"
+youtube = "channel/stuckaryan" # or channel/channelname
+twitter = "am.aaryan"
 threads = "username"
 linkedin = "username"
-github = "username"
+github = "0aaryan"
 #gitlab = "username"
 #bitbucket = "username"
 #reddit = "username"
