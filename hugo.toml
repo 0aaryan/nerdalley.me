@@ -1,4 +1,4 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "https://nerdtech.live"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "NERD TECH"
@@ -10,8 +10,8 @@ pygmentsStyle = "trac"
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+disqusShortname = "nerdtech-1"
+googleAnalytics = "G-TDH2YR7B3P"
 enableRobotsTXT = true
 enableGitInfo = false
 Paginate = 6
