@@ -4,17 +4,10 @@ layout : "about"
 title: "About me"
 ---
 
-I am Bino Kochumol Varghese.
+I am Aryan Arora
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+I have been coding for the past 3 years and have developed proficiency in several programming languages, including Python, JavaScript, and C++. I have worked on a wide range of personal projects, including developing web applications using Django and Node-Red, creating IoT projects with Raspberry Pi, and exploring emerging technologies like ML and Computer Vision. I have a passion for learning and am not afraid to take on new challenges. With strong problem-solving skills and a willingness to experiment, I am constantly seeking to expand my knowledge and skills
 
 ##### Social Media
-- [Instagram](https://www.instagram.com/binovarghese_)
-- [Twitter](https://twitter.com/binovarghese_)
-- [Linkedin](https://linkedin.com/in/binovarghese-)
- 
-
+- [Instagram](https://www.instagram.com/am.aaryan_/)
+- [Linkedin](https://linkedin.com/in/am-aryan-arora)

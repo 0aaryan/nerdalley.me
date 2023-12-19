@@ -35,7 +35,7 @@
 
   <div class="row">
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-      <hr class="m-0"/>
+      <hr class="m-0" />
     </div>
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
       {{ if .Params.tags }}
@@ -63,12 +63,12 @@
         <div class="row no-gutters">
           <div class="col-md-2 ">
             <div class="card-body ">
-              {{ $image := resources.Get "/img/bino-about-small.jpg" }}
+              {{ $image := resources.Get "/img/bino-about-small.png" }}
               <img src="{{ $image.RelPermalink }}" class="img-responsive img-50 img-round" alt="">
             </div>
           </div>
 
-         
+
           <div class="col-md-10">
             <div class="card-body p-1.1">
               <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
@@ -80,7 +80,7 @@
                 {{ .Site.Author.name | safeHTML }}
                 {{ end }}
 
-              </p> 
+              </p>
               {{ if .Site.Params.authorInfo }}
               <p class="card-text fs-6  m-0">{{ .Site.Params.authorInfo | safeHTML }}</p>
               {{ end }}

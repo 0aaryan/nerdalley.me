@@ -1,7 +1,7 @@
 baseURL = "https://lightbi-hugo-theme.netlify.app/"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
-title = "Lightbi"
+title = "NERD TECH"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -33,8 +33,8 @@ Lastmod = false
 rss = false
 pagination = "10"
 hideAuthor = false
-authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
-description = "Your can add your website description here."
+authorInfo = "Coding is my canvas, and technology is my masterpiece."
+description = "NerdTech.live is a blog about technology, programming, and other cool stuff."
 
 
 [sitemap]
