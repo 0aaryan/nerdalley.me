@@ -10,7 +10,7 @@ pygmentsStyle = "trac"
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-disqusShortname = "nerdtech-1"
+disqusShortname = "nerdtech-1.disqus.com"
 googleAnalytics = "G-TDH2YR7B3P"
 enableRobotsTXT = true
 enableGitInfo = false
