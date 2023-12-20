@@ -4,9 +4,8 @@ layout : "about"
 title: "About me"
 ---
 
-I am Aryan Arora
-
-I have been coding for the past 3 years and have developed proficiency in several programming languages, including Python, JavaScript, and C++. I have worked on a wide range of personal projects, including developing web applications using Django and Node-Red, creating IoT projects with Raspberry Pi, and exploring emerging technologies like ML and Computer Vision. I have a passion for learning and am not afraid to take on new challenges. With strong problem-solving skills and a willingness to experiment, I am constantly seeking to expand my knowledge and skills
+Hello, I'm Aryan Arora,
+the creator of NERD TECH, your go-to source for the latest insights into the ever-evolving world of technology. With a passion for staying ahead of the curve, I strive to deliver timely and engaging content that keeps you informed about the most significant developments in the tech industry.
 
 ##### Social Media
 - [Instagram](https://www.instagram.com/am.aaryan_/)

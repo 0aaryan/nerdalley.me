@@ -3,10 +3,10 @@
   {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
 
   {{.Date | time.Format ":date_full" }}
-
+  {{/*
   {{ if ne $datestr $lastmodstr }}
   | &nbsp;Last Modified On: {{ $lastmodstr }}
-  {{ end }}
+  {{ end }} */}}
 
   {{ if .Site.Params.readingTime }}
   &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
