@@ -1,55 +1,52 @@
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
-        <a href="{{ .Permalink }}" alt="Link to {{ .Title }}">
-            <div class="card-body">
+  <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+    <a href="{{ .Permalink }}" alt="Link to {{ .Title }}">
+      <div class="card-body">
 
-                <h3 class="fw-bold post-title">{{ .Title }}</h3>
-                {{ if .Params.subtitle }}
-                <h3 class="post-subtitle">
-                    {{ .Params.subtitle }}
-                </h3>
-                {{ end }}
 
-                <p class="post-meta">
-                    {{ partial "post_meta_notes.html" . }}
-                </p>
-                {{ print }}
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}" alt="{{ .Title }}"
+          class="card-img-bottom img-fluid lazyload width-300 height-300">
+        {{ end }}
 
-                <div class="post-entry">
-                    {{ if .Description }}
-                    {{ .Description }}
 
-                    {{ else }}
-                    {{ .Content }}
-                    {{ end }}
-                </div>
+        {{ if .Params.video }}
+        <video loop autoplay muted playsinline class=" img-title">
+          <source src="{{ .Params.video }}">
+        </video>
+        {{ end }}
 
-                <div class="read-more-section">
-                    <!-- post-read-more  -->
-                    <h6><a href="{{ .Permalink }}" class="text-muted link-underline" alt="Link to {{ .Title }}">Read
-                            more <i class="bi bi-arrow-right"></i></a> </h6>
-                </div>
-            </div>
+        <div class="mb-3"></div>
 
-            {{ if .Params.image }}
-            {{ with resources.Get .Params.image }}
-            {{ with .Err }}
-            {{ warnf "%s" . }}
-            {{ else }}
+        <h3 class="fw-bold post-title">{{ .Title }}</h3>
+        {{ if .Params.subtitle }}
+        <h3 class="post-subtitle">
+          {{ .Params.subtitle }}
+        </h3>
+        {{ end }}
 
-            <img src="{{ ( .Resize " 500x" ).RelPermalink }}" alt="{{ .Title }}"
-                class="card-img-bottom img-fluid lazyload">
-            {{ end }}
+        <p class="post-meta">
+          {{ partial "post_meta_notes.html" . }}
+        </p>
+        {{ print }}
 
-            {{ end }}
-            {{ end }}
+        <div class="post-entry">
+          {{ if .Description }}
+          {{ .Description }}
 
-            {{ if .Params.video }}
-            <video loop autoplay muted playsinline class="img-title">
-                <source src="{{ .Params.video }}">
-            </video>
-            {{ end }}
-        </a>
-        </a>
-    </div>
+          {{ else }}
+          {{ .Content }}
+          {{ end }}
+        </div>
+
+        <div class="read-more-section">
+          <!-- post-read-more  -->
+          <h6><a href="{{ .Permalink }}" class="text-muted link-underline" alt="Link to {{ .Title }}">Read
+              more <i class="bi bi-arrow-right"></i></a> </h6>
+        </div>
+      </div>
+
+    </a>
+    </a>
+  </div>
 </div>

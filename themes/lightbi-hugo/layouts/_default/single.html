@@ -6,16 +6,20 @@
       <div class="card-image card-image-blog p-0">
 
         {{ if .Params.image }}
-        {{ with resources.Get .Params.image }}
+        {{/* {{ with resources.Get .Params.image }}
         {{ with .Err }}
         {{ warnf "%s" . }}
-        {{ else }}
+        {{ else }} */}}
 
-        <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="card-img-bottom rounded img-fluid lazyload">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img-bottom rounded img-fluid lazyload">
+
+        {{/* {{ end }}
+        {{/* {{ end }}
+
+        {{ end }} */}}
         {{ end }}
 
-        {{ end }}
-        {{ end }}
+
 
 
         {{ if .Params.video }}
