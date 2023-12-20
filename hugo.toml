@@ -83,10 +83,10 @@ weight = 1
 # url = "/notes/"
 # weight = 2
 
-# [[menu.main]]
-# name = "Tags"
-# url = "/tags/blog/"
-# weight = 3
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
 
 # [[menu.main]]
 # name = "Collections"
