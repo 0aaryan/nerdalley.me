@@ -2,7 +2,7 @@
   {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
   {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
 
-  {{ $datestr }}
+  {{.Date | time.Format ":date_full" }}
 
   {{ if ne $datestr $lastmodstr }}
   | &nbsp;Last Modified On: {{ $lastmodstr }}

@@ -1,6 +1,6 @@
 ---
 title: "Chandrayaan-3 Mission: India's Historic Moon Landing in 2023"
-date: 2023-12-20
+date: "2023-12-20"
 tags: ["Chandrayaan-3", "India space mission", "Moon landing", "ISRO", "Space exploration"]
 image: "/img/posts/Chandrayaan-3_Mission:_India's_Historic_Moon_Landing_in_2023/0.png"
 Description: "Explore the details of India's Chandrayaan-3 mission, its historic moon landing, and the global celebration of this remarkable achievement in space exploration."
